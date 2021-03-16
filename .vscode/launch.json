@@ -1,0 +1,15 @@
+{    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "lldb - Debug project",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/prog",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            /* This calls the debug task in "tasks.json" prior to debugging */
+            "preLaunchTask": "C/C++: call make debug"
+        }
+    ]
+}
